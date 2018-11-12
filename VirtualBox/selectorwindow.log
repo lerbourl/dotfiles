@@ -1,0 +1,17 @@
+VirtualBox GUI VM Selector Window 5.2.22 r126257 linux.amd64 (Nov  9 2018 11:16:45) release log
+00:00:01.712195 Log opened 2018-11-12T08:12:16.979094000Z
+00:00:01.712196 Build Type: release
+00:00:01.712198 OS Product: Linux
+00:00:01.712200 OS Release: 4.18.16-arch1-1-ARCH
+00:00:01.712201 OS Version: #1 SMP PREEMPT Sat Oct 20 22:06:45 UTC 2018
+00:00:01.712222 DMI Product Name: UX303LB
+00:00:01.712229 DMI Product Version: 1.0       
+00:00:01.712267 Host RAM: 7879MB (7.6GB) total, 6749MB (6.5GB) available
+00:00:01.712270 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:01.712271 Process ID: 4750
+00:00:01.712272 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:01.712296 Qt version: 5.11.2
+00:00:01.784141 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:01.784161 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:01.915005 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 0x23 x 1920x1057
+00:00:01.946422 Failed to open "/dev/vboxdrv", errno=13, rc=VERR_VM_DRIVER_NOT_ACCESSIBLE

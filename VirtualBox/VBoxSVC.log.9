@@ -1,0 +1,48 @@
+VirtualBox XPCOM Server 5.2.18 r123745 linux.amd64 (Aug 15 2018 12:32:31) release log
+00:00:00.000166 main     Log opened 2018-10-13T08:11:14.440678000Z
+00:00:00.000167 main     Build Type: release
+00:00:00.000169 main     OS Product: Linux
+00:00:00.000170 main     OS Release: 4.18.12-arch1-1-ARCH
+00:00:00.000170 main     OS Version: #1 SMP PREEMPT Thu Oct 4 01:01:27 UTC 2018
+00:00:00.000185 main     DMI Product Name: UX303LB
+00:00:00.000191 main     DMI Product Version: 1.0       
+00:00:00.000217 main     Host RAM: 7879MB (7.6GB) total, 5479MB (5.3GB) available
+00:00:00.000219 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.000219 main     Process ID: 7484
+00:00:00.000220 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.001536 main     IPC socket path: /tmp/.vbox-louis-ipc/ipcd
+00:00:00.107029 nspr-2   VirtualBox: object creation starts
+00:00:00.107142 nspr-2   Home directory: '/home/louis/.config/VirtualBox'
+00:00:00.107297 nspr-2   Loading settings file "/home/louis/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.121594 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp2s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.122374 nspr-2   NAT: resolv.conf: nameserver 192.168.1.1
+00:00:00.122403 nspr-2   HostDnsMonitor: old information
+00:00:00.122410 nspr-2     no server entries
+00:00:00.122417 nspr-2     no domain set
+00:00:00.122422 nspr-2     no search string entries
+00:00:00.122428 nspr-2   HostDnsMonitor: new information
+00:00:00.122433 nspr-2     server 1: 192.168.1.1
+00:00:00.122439 nspr-2     domain: home
+00:00:00.122445 nspr-2     no search string entries
+00:00:00.122452 nspr-2   HostDnsMonitorProxy::notify
+00:00:00.125085 nspr-2   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:00:00.125297 nspr-2   VD: VDInit finished with VINF_SUCCESS
+00:00:00.125403 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={0eb668d2-495e-5a36-8890-29999b5f030c} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:00:00.125870 nspr-2   VirtualBox: object created
+00:00:15.221499 ApplRead ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={8398f026-4add-4474-5bc3-2f9f2140b23e} aComponent={ApplianceWrap} aText={Error opening the OVA file '/home/louis/ensimagvm.ova' (VERR_ACCESS_DENIED)}, preserve=false aResultDetail=-38
+00:07:00.015834 nspr-4   Import settings with version "1.14-linux"
+00:07:00.016080 nspr-4   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={9570b9d5-f1a1-448a-10c5-e12f5285adad} aComponent={VirtualBoxWrap} aText={Could not find a registered machine named 'ensimagvm'}, preserve=false aResultDetail=0
+00:07:00.016432 nspr-4   ERROR [COM]: aRC=VBOX_E_FILE_ERROR (0x80bb0004) aIID={4afe423b-43e0-e9d0-82e8-ceb307940dda} aComponent={MediumWrap} aText={Could not find file for the medium '/home/louis/VirtualBox VMs/ensimagvm/ensimagvm-disk001.vmdk' (VERR_FILE_NOT_FOUND)}, preserve=false aResultDetail=0
+00:24:19.665729 ApplImp  Saving settings file "/home/louis/VirtualBox VMs/ensimagvm/ensimagvm.vbox" with version "1.14-linux"
+00:24:20.035026 ApplImp  Saving settings file "/home/louis/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:24:20.207278 nspr-4   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85cd948e-a71f-4289-281e-0ca7ad48cd89} aComponent={MachineWrap} aText={This machine does not have any snapshots}, preserve=false aResultDetail=0
+00:34:19.516706 Watcher  ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85cd948e-a71f-4289-281e-0ca7ad48cd89} aComponent={MachineWrap} aText={The virtual machine 'ensimagvm' has terminated unexpectedly during startup with exit code 1 (0x1)}, preserve=false aResultDetail=0
+00:43:02.934504 nspr-5   Saving settings file "/home/louis/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:43:04.287565 nspr-2   Saving settings file "/home/louis/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:43:04.480467 nspr-2   Saving settings file "/home/louis/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:43:04.646907 nspr-4   Saving settings file "/home/louis/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:43:10.340566 main     VirtualBox: object deletion starts
+00:43:10.340675 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={4afe423b-43e0-e9d0-82e8-ceb307940dda} aComponent={MediumWrap} aText={Medium '/home/louis/VirtualBox VMs/ensimagvm/ensimagvm-disk001.vmdk' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:43:10.737450 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={9570b9d5-f1a1-448a-10c5-e12f5285adad} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:43:15.341681 main     {00007f8db8016bf0} HostPowerServiceLinux::~HostPowerServiceLinux: RTThreadWait() for 5000 ms failed with VERR_TIMEOUT
+00:43:15.342199 main     VirtualBox: object deleted
